@@ -83,6 +83,18 @@
 		<Unit filename="/cygdrive/c/Users/user/CLionProjects/Lab3/main.cpp">
 			<Option target="Lab3"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/user/CLionProjects/Lab3/stack.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/user/CLionProjects/Lab3/stack.hpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/user/CLionProjects/Lab3/unit_test.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/user/CLionProjects/Lab3/unit_test.hpp">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/user/CLionProjects/Lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

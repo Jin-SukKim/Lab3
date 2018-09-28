@@ -23,7 +23,7 @@ bool Stack::push(int value)
 
 void Stack::pop()
 {
-    if(count>0){
+    if(count>-1){
         count--;
     }
 }
@@ -48,8 +48,8 @@ bool const Stack::full()
 
 string const Stack::print()
 {
-    ostringstream oss;
-    for(int i=0; i<=MAX-1; i++){
+    ostringstream oss("");
+    for(int i=0; i<=count; i++){
         oss << a[i] << " ";
     }
     return oss.str();

@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stack.o: stack.cpp.o
+
+.PHONY : stack.o
+
+# target to build an object file
+stack.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/stack.cpp.o
+.PHONY : stack.cpp.o
+
+stack.i: stack.cpp.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/stack.cpp.i
+.PHONY : stack.cpp.i
+
+stack.s: stack.cpp.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/stack.cpp.s
+.PHONY : stack.cpp.s
+
+unit_test.o: unit_test.cpp.o
+
+.PHONY : unit_test.o
+
+# target to build an object file
+unit_test.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/unit_test.cpp.o
+.PHONY : unit_test.cpp.o
+
+unit_test.i: unit_test.cpp.i
+
+.PHONY : unit_test.i
+
+# target to preprocess a source file
+unit_test.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/unit_test.cpp.i
+.PHONY : unit_test.cpp.i
+
+unit_test.s: unit_test.cpp.s
+
+.PHONY : unit_test.s
+
+# target to generate assembly for a file
+unit_test.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/unit_test.cpp.s
+.PHONY : unit_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stack.o"
+	@echo "... stack.i"
+	@echo "... stack.s"
+	@echo "... unit_test.o"
+	@echo "... unit_test.i"
+	@echo "... unit_test.s"
 .PHONY : help
 
 
