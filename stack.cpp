@@ -6,15 +6,14 @@
 #include <iostream>
 #include <sstream>
 using namespace std;
-stack::stack()
+Stack::Stack()
 {
     count = -1;
 }
 
-bool stack::push(int value)
+bool Stack::push(int value)
 {
     if(count==(MAX-1)){
-        cout<<"The stack is full"<<endl;
         return false;
     }
     count++;
@@ -22,16 +21,14 @@ bool stack::push(int value)
     return true;
 }
 
-void stack::pop()
+void Stack::pop()
 {
     if(count>0){
         count--;
-    } else {
-        cout<<"No elements"<<endl;
     }
 }
 
-int const stack::top()
+int const Stack::top()
 {
     if(count>=0){
         return a[count];
@@ -39,21 +36,21 @@ int const stack::top()
     return -1;
 }
 
-bool const stack::empty()
+bool const Stack::empty()
 {
     return count == -1;
 }
 
-bool const stack::full()
+bool const Stack::full()
 {
     return count == MAX - 1;
 }
 
-ostringstream const stack::print()
+string const Stack::print()
 {
     ostringstream oss;
-    for(int i=0; i<=count; i++){
+    for(int i=0; i<=MAX-1; i++){
         oss << a[i] << " ";
     }
-    return oss;
+    return oss.str();
 }
